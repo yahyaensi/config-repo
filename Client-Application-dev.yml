@@ -1,0 +1,7 @@
+owner:
+  name: yahya
+
+spring:
+  datasource:
+    username: dbuser
+    password: '{cipher}3d1efbad5eeac128db10a0f4b9e53674b9eaf3e07821625093ac237c56b27657'
