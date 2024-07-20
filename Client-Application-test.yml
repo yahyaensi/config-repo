@@ -1,2 +1,8 @@
 owner:
   name: sasmita samanta singhar
+
+spring:
+  datasource:
+    username: dbuser
+    # encrypted with public key (Asymmetric keys pair)
+    password: '{cipher}AQB7filtXs0hXGSSpDWE9QsmDDTzSJ9TDWmkGHba0yscdXcXEvFARVsfKDtFgNxvelD0N+XE85TEvo57ZqkivC42TUIxReHPo3ydTHf2JSM03gDmz6EXiPQu1lZOQ5KlEuMySErkBIi+ghHBO62IJxggtIV+pGmpm+n9AQbZ1wSQ2Xror4oJva0cKtq+WBtOmnBSmDoIcaeGxJuRAg/xrBkub2Nzz19kG9S8AYCexFqTsXWuQBskG3u/Uct/MkMEr6dWjA8g3Mf1CEmUk+ofJGzvb4FE8i+Qr2r9UyjAW9Spv1HCPuSHgm6eeM6yOAyKb2dQOPidgFbQ+0c0JExVIovuf1/N+TPdgpBNrpI2hkDJKSufg6YPN52lP0TXxN3bGIc='
