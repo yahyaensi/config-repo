@@ -1,0 +1,7 @@
+owner:
+  name: yahya
+
+spring:
+  datasource:
+    username: dbuser
+    password: '{cipher}AQAyKIXjDl55uJLAkr5DXJ7FORIJQDVFJo2gWua5xRuwUIb4xQ3vE60KPTgpM29cKqgqp3XyEGjw64gmc4Tsr/XLWCjZv4pz0QVN7FtT3tZ3XQxBom5EloRskF53gJYYUtgbtruUIRNkS8R+G7KLgZgtLnwBsGN+0gOcvykL/tXN9uDRg8c7hGsteq2We6tKWhUob3NSyTN7xdfqx4tswlEFE2z/ZD8nWZdo5ZzfxH/zkicfaQtmJfIT4+WQQfYGOJlA5eLEVcHj8RorTtLxpbzuQoNhpNr1A1ZN1VdxUT32gJTUGYIa/A2aooqnlcX5lZoaveWJGd93m2c8+X+1IrVajNcH60RDA58DO0JF+tDj99AN1Yg3BwXUpNOqX10iryo='

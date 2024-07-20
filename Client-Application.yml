@@ -1,0 +1,25 @@
+server:
+  port: 8088
+
+management:
+  endpoint:
+    health:
+      enabled: true
+    refresh:
+      enabled: true
+    # the /shutdown endpoint is disabled by default.
+    # shutdown:
+      # enabled: true
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        # expose Actuator's refresh endpoint (comma separated list) 
+        include: health, refresh
+        # expose all Actuator endpoints except /shutdown 
+        # include: *
+        # expose all Actuator endpoints except /shutdown and /threaddump (The exclude property takes precedence over include.)
+        # exclude: threaddump
+
+greeting:
+  msg: Hola
