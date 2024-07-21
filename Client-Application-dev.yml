@@ -3,6 +3,7 @@ owner:
 
 spring:
   datasource:
+    url: jdbc:mysql://151.101.1.69:3306/databasename
     username: dbuser
-    # encrypted with symmetric key
-    password: '{cipher}3d1efbad5eeac128db10a0f4b9e53674b9eaf3e07821625093ac237c56b27657'
+    # encrypted with symmetric key and will be injected from Vault
+    # password: '{cipher}3d1efbad5eeac128db10a0f4b9e53674b9eaf3e07821625093ac237c56b27657'
